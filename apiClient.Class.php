@@ -1,7 +1,7 @@
 <?php
 class APIClient
 {
-    private static $url = 'http://ion.hugeserver.com/api/v2/';
+    private static $url = 'https://ion.hugeserver.com/api/v2/';
     private static $key = 'user:key';
 
     public static function __callStatic( $method, $param )
